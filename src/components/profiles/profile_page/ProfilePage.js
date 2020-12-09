@@ -5,11 +5,8 @@ import ProfileContent from "./ProfileContent";
 import ProfileHeader from "./ProfileHeader";
 import useFirestoreDoc from "./../../../hooks/useFirestoreDoc";
 import { getUserProfile } from "../../../firestore/firestoreService";
-import { LISTEN_TO_CURRENT_USER_PROFILE } from "../../../store/actionTypes";
-import {
-  listenToCuurentUserProfile,
-  listenToSelectedtUserProfile,
-} from "../../../store/actions/profileActions";
+//import { LISTEN_TO_CURRENT_USER_PROFILE } from "../../../store/actionTypes";
+import { listenToSelectedtUserProfile } from "../../../store/actions/profileActions";
 import LoadingComponent from "../../../utils/LoadingComponent";
 
 export default function ProfilePage({ match }) {

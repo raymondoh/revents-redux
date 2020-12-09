@@ -28,7 +28,7 @@ export default function ProfileHeader({ profile, isCurrentUser }) {
                 <Header
                   as="h1"
                   style={{ display: "block", marginBottom: 10 }}
-                  content={profile.displayName}
+                  content={profile && profile.displayName}
                 />
               </Item.Content>
             </Item>
